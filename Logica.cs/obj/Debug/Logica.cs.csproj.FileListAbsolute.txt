@@ -1,0 +1,16 @@
+C:\Users\Juann\Desktop\Tp_Entregar_WindowsForms\Logica.cs\bin\Debug\Logica.cs.dll
+C:\Users\Juann\Desktop\Tp_Entregar_WindowsForms\Logica.cs\bin\Debug\Logica.cs.pdb
+C:\Users\Juann\Desktop\Tp_Entregar_WindowsForms\Logica.cs\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Juann\Desktop\Tp_Entregar_WindowsForms\Logica.cs\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Juann\Desktop\Tp_Entregar_WindowsForms\Logica.cs\obj\Debug\Logica.cs.csprojResolveAssemblyReference.cache
+C:\Users\Juann\Desktop\Tp_Entregar_WindowsForms\Logica.cs\obj\Debug\Logica.cs.dll
+C:\Users\Juann\Desktop\Tp_Entregar_WindowsForms\Logica.cs\obj\Debug\Logica.cs.pdb
+C:\Users\ppabl\Desktop\Tp_Listo_Para_Presentar_WindowsForms\Logica.cs\bin\Debug\Logica.cs.dll
+C:\Users\ppabl\Desktop\Tp_Listo_Para_Presentar_WindowsForms\Logica.cs\bin\Debug\Logica.cs.pdb
+C:\Users\ppabl\Desktop\Tp_Listo_Para_Presentar_WindowsForms\Logica.cs\bin\Debug\Newtonsoft.Json.dll
+C:\Users\ppabl\Desktop\Tp_Listo_Para_Presentar_WindowsForms\Logica.cs\bin\Debug\Newtonsoft.Json.xml
+C:\Users\ppabl\Desktop\Tp_Listo_Para_Presentar_WindowsForms\Logica.cs\obj\Debug\Logica.cs.csprojAssemblyReference.cache
+C:\Users\ppabl\Desktop\Tp_Listo_Para_Presentar_WindowsForms\Logica.cs\obj\Debug\Logica.cs.csproj.CoreCompileInputs.cache
+C:\Users\ppabl\Desktop\Tp_Listo_Para_Presentar_WindowsForms\Logica.cs\obj\Debug\Logica.cs.csproj.CopyComplete
+C:\Users\ppabl\Desktop\Tp_Listo_Para_Presentar_WindowsForms\Logica.cs\obj\Debug\Logica.cs.dll
+C:\Users\ppabl\Desktop\Tp_Listo_Para_Presentar_WindowsForms\Logica.cs\obj\Debug\Logica.cs.pdb

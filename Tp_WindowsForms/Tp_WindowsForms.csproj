@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A3EA9CDC-2593-46AB-804B-1AE0207B46AD}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Tp_WindowsForms</RootNamespace>
+    <AssemblyName>Tp_WindowsForms</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.10.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_GrillaPresupuestos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_GrillaPresupuestos.Designer.cs">
+      <DependentUpon>Form_GrillaPresupuestos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_GrillaVenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_GrillaVenta.Designer.cs">
+      <DependentUpon>Form_GrillaVenta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_CargaClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_CargaClientes.Designer.cs">
+      <DependentUpon>Form_CargaClientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_CargaProductos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_CargaProductos.Designer.cs">
+      <DependentUpon>Form_CargaProductos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_CargaVentas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_CargaVentas.Designer.cs">
+      <DependentUpon>Form_CargaVentas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_GrillaClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_GrillaClientes.Designer.cs">
+      <DependentUpon>Form_GrillaClientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_GrillaProductos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_GrillaProductos.Designer.cs">
+      <DependentUpon>Form_GrillaProductos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Menuprincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Menuprincipal.Designer.cs">
+      <DependentUpon>Form_Menuprincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Presupuestos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Presupuestos.Designer.cs">
+      <DependentUpon>Form_Presupuestos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Reporte1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Reporte1.Designer.cs">
+      <DependentUpon>Form_Reporte1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Reporte2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Reporte2.Designer.cs">
+      <DependentUpon>Form_Reporte2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Reporte3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Reporte3.Designer.cs">
+      <DependentUpon>Form_Reporte3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaces\Interfaz_Grilla.cs" />
+    <Compile Include="Interfaces\Interface_CargaProductos.cs" />
+    <Compile Include="Interfaces\Interface_GuardarVentas.cs" />
+    <Compile Include="Interfaces\Interface_ObtenerDatos.cs" />
+    <Compile Include="Interfaces\Interface_Reportes.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_CargaClientes.resx">
+      <DependentUpon>Form_CargaClientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_CargaProductos.resx">
+      <DependentUpon>Form_CargaProductos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_CargaVentas.resx">
+      <DependentUpon>Form_CargaVentas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_GrillaClientes.resx">
+      <DependentUpon>Form_GrillaClientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_GrillaPresupuestos.resx">
+      <DependentUpon>Form_GrillaPresupuestos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_GrillaProductos.resx">
+      <DependentUpon>Form_GrillaProductos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_GrillaVenta.resx">
+      <DependentUpon>Form_GrillaVenta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Menuprincipal.resx">
+      <DependentUpon>Form_Menuprincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Presupuestos.resx">
+      <DependentUpon>Form_Presupuestos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Reporte1.resx">
+      <DependentUpon>Form_Reporte1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Reporte2.resx">
+      <DependentUpon>Form_Reporte2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Reporte3.resx">
+      <DependentUpon>Form_Reporte3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram3.cd" />
+    <None Include="packages.config" />
+    <None Include="Properties\DataSources\Form_CargaClientes.datasource" />
+    <None Include="Properties\DataSources\Form_CargaProductos.datasource" />
+    <None Include="Properties\DataSources\Form_CargaVentas.datasource" />
+    <None Include="Properties\DataSources\Form_GrillaClientes.datasource" />
+    <None Include="Properties\DataSources\Form_GrillaProductos.datasource" />
+    <None Include="Properties\DataSources\Form_MenuPrincipal.datasource" />
+    <None Include="Properties\DataSources\Form_Presupuestos.datasource" />
+    <None Include="Properties\DataSources\Interface_ObtenerDatos.datasource" />
+    <None Include="Properties\DataSources\Logica.cs.Clientes.datasource" />
+    <None Include="Properties\DataSources\Logica.cs.ClienteSeleccionadoVentas.datasource" />
+    <None Include="Properties\DataSources\Logica.cs.ConverPresupuestoEnVenta.datasource" />
+    <None Include="Properties\DataSources\Logica.cs.Devoluciones.datasource" />
+    <None Include="Properties\DataSources\Logica.cs.Devoluciones_Venta_Cancelada.datasource" />
+    <None Include="Properties\DataSources\Logica.cs.Devolucion_Defectuosa.datasource" />
+    <None Include="Properties\DataSources\Logica.cs.Empresa.datasource" />
+    <None Include="Properties\DataSources\Logica.cs.ListaProvincias.datasource" />
+    <None Include="Properties\DataSources\Logica.cs.Localidades.datasource" />
+    <None Include="Properties\DataSources\Logica.cs.Presupuestos.datasource" />
+    <None Include="Properties\DataSources\Logica.cs.Productos.datasource" />
+    <None Include="Properties\DataSources\Logica.cs.ProductosVendidos.datasource" />
+    <None Include="Properties\DataSources\Logica.cs.Provincia.datasource" />
+    <None Include="Properties\DataSources\Logica.cs.ReporteListaEnPeriodoFechas.datasource" />
+    <None Include="Properties\DataSources\Logica.cs.ReporteProdVendidosContraProdDefectuosos.datasource" />
+    <None Include="Properties\DataSources\Logica.cs.ReporteVendidoPorMes.datasource" />
+    <None Include="Properties\DataSources\Logica.cs.TipoDeProducto.datasource" />
+    <None Include="Properties\DataSources\Logica.cs.Ventas.datasource" />
+    <None Include="Properties\DataSources\Program.datasource" />
+    <None Include="Properties\DataSources\Tp_WindowsForms.Properties.Resources.datasource" />
+    <None Include="Properties\DataSources\Tp_WindowsForms.Properties.Settings.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Logica.cs\Logica.cs.csproj">
+      <Project>{f43e22af-0791-40fb-8ed4-6bd7e4a76699}</Project>
+      <Name>Logica.cs</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
